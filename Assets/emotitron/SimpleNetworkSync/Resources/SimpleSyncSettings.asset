@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b50decf5aa08b147ad4888a369cac3d, type: 3}
+  m_Name: SimpleSyncSettings
+  m_EditorClassIdentifier: 
+  _frameCount: 60
+  _bufferCorrection: 0
+  _targetBufferSize: 2
+  _maxBufferSize: 4
+  _minBufferSize: 1
+  _ticksBeforeGrow: 8
+  _ticksBeforeShrink: 5
+  _sendEveryXTick: 2
+  showGUIHeaders: 1
+  enableCodegen: 1
+  deleteBadCode: 1

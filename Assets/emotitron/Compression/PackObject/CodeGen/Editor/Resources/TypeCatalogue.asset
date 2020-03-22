@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba72233eb7c169743b9be02337eb06d6, type: 3}
+  m_Name: TypeCatalogue
+  m_EditorClassIdentifier: 
+  catalogue:
+    keys:
+    - emotitron.TestPackObject
+    - emotitron.Networking.Example2.NestedSyncVars
+    - emotitron.Networking.Example2.SyncvarTest
+    vals:
+    - hashcode: 1460747686737938967
+      filepath: Assets/PackCodeGen/Pack_TestPackObject.cs
+      codegenFileWriteTime: 637204705532163253
+      localFieldCount: 3
+      totalFieldCount: 3
+    - hashcode: -8888592792727889127
+      filepath: Assets/PackCodeGen/Pack_NestedSyncVars.cs
+      codegenFileWriteTime: 637204149938109875
+      localFieldCount: 6
+      totalFieldCount: 6
+    - hashcode: -8448146282608649509
+      filepath: Assets/PackCodeGen/Pack_SyncvarTest.cs
+      codegenFileWriteTime: 637204149938219579
+      localFieldCount: 1
+      totalFieldCount: 1
